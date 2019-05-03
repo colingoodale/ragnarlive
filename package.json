@@ -1,0 +1,43 @@
+{
+  "name": "petshare",
+  "version": "1.0.0",
+  "engines": {
+    "node": "v8.11.3"
+  },
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.0",
+    "dotenv": "^6.0.0",
+    "eslint": "^5.6.0",
+    "eslint-config-prettier": "^2.10.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql2": "^1.6.1",
+    "path": "^0.12.7",
+    "prettier": "^1.14.3",
+    "sequelize": "^4.38.1",
+    "stripe": "^6.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colingoodale/petshare.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colingoodale/petshare/issues"
+  },
+  "homepage": "https://github.com/colingoodale/petshare#readme",
+  "description": ""
+}
