@@ -15,7 +15,7 @@ if (config.use_env_vriable) {
         config.database,
         config.username,
         config.password,
-        config,
+        config
     );
 }
 
