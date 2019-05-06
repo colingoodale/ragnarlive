@@ -16,9 +16,6 @@ if (config.use_env_vriable) {
         config.username,
         config.password,
         config,
-        {
-            dialect: "mysql",
-        }
     );
 }
 
